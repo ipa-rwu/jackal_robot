@@ -41,6 +41,10 @@ endif()
 install(PROGRAMS scripts/compute_calibration
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
-roslaunch_add_file_check(launch/base.launch)
+if (CATKIN_ENABLE_TESTING)
+  find_package(roslaunch REQUIRED)
+  roslaunch_add_file_check(launch/base.launch)
+endif()
+
 roslint_cpp()
 roslint_add_test()
