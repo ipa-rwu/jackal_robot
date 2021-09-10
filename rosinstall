@@ -1,1 +1,1 @@
-- git: {local-name: jackal, uri: 'https://github.com/jackal/jackal', version: melodic-devel}
+- git: {local-name: jackal, uri: 'https://github.com/ipa-rwu/jackal', version: melodic-devel}
