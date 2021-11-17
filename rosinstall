@@ -1,1 +1,1 @@
-git: {local-name: jackal, uri: 'https://github.com/jackal/jackal', version: noetic-devel}
+git: {local-name: jackal, uri: 'https://github.com/ipa-rwu/jackal', version: rwu/fix-noetic}
